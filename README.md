@@ -5,5 +5,6 @@ Also the user has the option to post this quote on Twitter. For that purpose, a 
 
 How to run the project:
 1. Download the project in your local machine.
+2. Open index.html in the browser.
 
 That's it!
