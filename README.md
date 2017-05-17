@@ -5,7 +5,5 @@ Also the user has the option to post this tweet on Twitter. For that purpose, a 
 
 How to run the project:
 1. Download the project in your local machine.
-2. In index.html, in the "head" tag, give the path of "main.css" in your local machine.
-3. In index.html, in the "head" tag, give the path of "myscript.js" in your local machine.
 
 That's it!
