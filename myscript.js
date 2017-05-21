@@ -1,7 +1,12 @@
 $(document).ready(function() {
   
-  alert("If on https mode then please switch to http mode.");
-  alert("Please operate in landscape mode in mobile for better view.");
+  if(location.protocol=='https:'){
+    alert("Please switch to http.");
+  }
+  var size=$(window).width();
+  if(size<800){
+    alert("Please operate in landscape mode in mobile for better view.");
+  }
   
   var bcolor=["#A04000", "#CD5CFC", "#F1C40F", "#AED6F1", "#85929E", "#FF3F33", "#33FF4C", "#3339FF", "#FF339F", "#D4EFDF"];
   
